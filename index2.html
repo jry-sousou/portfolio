@@ -28,7 +28,7 @@
 
             <ul class="w100h50 jcsa aic">
                 <li><a class="texteWhite merry" href="#app"> A propos</a></li>
-                <li><a class="texteWhite merry" href="#exp"> Expériences</a></li>
+                <li><a class="texteWhite merry" href="#comp"> Compétences</a></li>
                 <li><a class="texteWhite merry" href="#pjt"> Projets</a></li>
                 <li> <a class="texteWhite merry" href="#Contact"> Contact</a></li>
             </ul>
@@ -69,7 +69,7 @@
 
 
 
-            <div class="ap container w80 h70  br satisfyPolice texta aic fontSizee">
+            <div class="ap container w80 h70  br satisfyPolice texta aic">
                 <img class="container w50 h70" src="img/undraw_profile_6l1l.png" alt="">
 
 
@@ -89,10 +89,10 @@
 
 
         </section>
-        <section id="exp" class="h100 container jcsb jcc fdc bglgg">
+        <section id="comp" class="h100 container jcsb jcc fdc bglgg">
             <div class="title container black w100 h30 jcc satisfyPolice fontSize aic">
 
-                <h1>Expériences</h1>
+                <h1>Compétences</h1>
                 <img class="container w20 h40" src="img/undraw_experience_design_eq3j (2).png" alt="">
 
             </div>
@@ -154,26 +154,36 @@
     <!-- CONTACT ---------------------------------------------------------------------------------->
 
     <div class="container bgcontact w100 h50" id="Contact">
-        <form class="container fdc jcse" method="post" action="données.php">
-            <label for="nom"><strong>Nom</strong></label>
-            <input class="borderf" type="text" id="nom" name="nom">
-
-            <label for="email"><strong>E-mail</strong></label>
-            <input class="borderf" type="text" id="email" name="email">
-
-            <label for="com"><strong>Commentaires</strong></label>
-            <textarea class="borderf" id="com" name="commentaire"></textarea>
-
-            <input class="borderf" type="submit" value="Envoyer">
+        <div class="container w50 h80 aic jcc satisfyPolice fontSizee fdc jcsb">
+            <h1>Un café ?</h1>
+            <form class="container fdc w50 contact" method="post" action="données.php">
+                <input type="text" class="contact-text h50 fontSizee br ap" placeholder="Nom">
+                <input type="email" class="contact-text h50 fontSizee margint marginb br ap" placeholder="E-mail">
+                <input type="text" class="contact-text h50 fontSizee br ap" placeholder="Téléphone">
+                <textarea class="contact-text h50 fontSizee marginb margint br ap"
+                    placeholder="Votre message"></textarea>
+                <input type="submit" class="contact-btn h30 fontSizee ap" value="Envoyer">
 
 
-        </form>
+            </form>
+        </div>
         
+        <div class="container w50 h60 aic jcc jsce">
+
+        <a href="https://www.linkedin.com/in/jerry-nicolas-7b51b7199/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/jry-sousou"><i class="fab fa-github"></i></a>
+
+
+    </div>
+
+
+
 
     </div>
 
     <footer class="container w100 bgbg aic jcc" id="copyright">
-            <i class="far fa-copyright"></i><p>NICOLAS Jerry All rights reserved 2020</p>
+        <i class="far fa-copyright"></i>
+        <p>NICOLAS Jerry All rights reserved 2020</p>
 
     </footer>
 </body>
