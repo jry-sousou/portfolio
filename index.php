@@ -93,7 +93,7 @@
             <div class="titlee container black w100 h30 jcc satisfyPolice fontSize aic">
 
                 <h1>Compétences</h1>
-                <img class="container w20 h40" src="img/undraw_experience_design_eq3j (3).png" alt="">
+                <img class="container w20 h40 compt" src="img/undraw_experience_design_eq3j (3).png" alt="">
 
             </div>
 
@@ -114,19 +114,21 @@
     <section class="container column wh bgwhite pro">
         <div class="container w100 fontSize h30 jcc satisfyPolice jcse mt aic" id="pjt">
             <h1>Projets</h1>
-            <img class="container w20 h70 ml" src="img/undraw_project_completed_w0oq (2).png" alt="">
+            <img class="container w20 h70 ml projet" src="img/undraw_project_completed_w0oq (2).png" alt="">
 
         </div>
         <div class="container w100 h50 bggreen aic jcse pr">
-            <div class="container w10 h50 bgwhite br aic jcc satisfyPolice fs30 borderf">
-                soon
+            <div class="container w10 h50 bgwhite br aic jcc satisfyPolice fs30 borderf anim">
+            <img class="container w100 h100" src="img/soleil.jpg" alt="">
+                
 
             </div>
-            <div class="container w10 h50 bgwhite br aic jcc satisfyPolice fs30 borderf">
-                soon
+            <div class="container w10 h50 bgwhite br aic jcc satisfyPolice fs30 borderf anim">
+            <img class="container w100 h100" src="img/port.jpg" alt="">
+                
 
             </div>
-            <div class="container w10 h50 bgwhite br aic jcc satisfyPolice fs30 borderf">
+            <div class="container w10 h50 bgwhite br aic jcc satisfyPolice fs30 borderf anim">
                 soon
 
             </div>
@@ -135,12 +137,14 @@
 
         <div class="container w100 h50 bggreen aic jcse pr">
             <div class="container w10 h50 bgwhite br aic jcc satisfyPolice fs30 borderf">
-                soon
+                <img class="container w100 h100" src="img/lune.jpg" alt="">
 
             </div>
 
+
             <div class="container w10 h50 bgwhite br aic jcc satisfyPolice fs30 borderf">
-                soon
+            <img class="container w100 h100" src="img/bureau.jpg" alt="">
+                
 
             </div>
 
@@ -173,9 +177,9 @@
         <a href="https://www.linkedin.com/in/jerry-nicolas-7b51b7199/"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/jry-sousou"><i class="fab fa-github"></i></a>
         
-
-
-    </div>
+        
+        </div>
+        
 
 
 

@@ -11,12 +11,12 @@ window.onload = function () {
         console.log("Checkpoint 1")
 
 
-        if (interrupteur == false) {
+        if (interrupteur == false) { // VERIFIE LA CONDITION //
 
-            ul.classList.remove("fadeout")
-            ul.classList.add("fadein")
-            tit.classList.remove("fadeout")
-            tit.classList.add("fadein")
+            ul.classList.remove("fadeout") // RETIRE LA CLASSE FADEOUT AUX UL //
+            ul.classList.add("fadein") // AJOUTE LA CLASSE FADEIN AUX UL //
+            tit.classList.remove("fadeout") // RETIRE LA CLASSE FADEOUT AU TITRE //
+            tit.classList.add("fadein") // AJOUTE LA CLASSE FADEIN AU TITRE //
 
 
 
@@ -38,13 +38,18 @@ window.onload = function () {
             interrupteur = false
         }
         /*FIN DU MENU HAMBURGEUR -----------------------------------------------------*/
+       
 
 
     }
+
+    
+
+
  /*FIN DE SECTION A PROPOS -------------------------------------------------------*/
 
 
-
+ 
 
 }
 
