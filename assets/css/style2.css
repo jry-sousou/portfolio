@@ -16,6 +16,7 @@ html,body{ width: 100%; height: 100%;}
 .fdw{flex-wrap: nowrap;}
 .aife{align-items: flex-end;}
 
+
 /*BACKGROUND-------------------------------------------------*/
 .bgmoi{background-image: url(../../img/moi.jpg);background-repeat: no-repeat;width: 100%;background-size: cover;background-position: center; background-attachment: fixed;}
 .bgcontact{background-image: url(../../img/undraw_contact_us_15o2.png);background-repeat: no-repeat;width: 100%;background-size: cover;background-position: center;opacity: 0.4;background-attachment: fixed;} 
@@ -35,12 +36,14 @@ html,body{ width: 100%; height: 100%;}
 
 /*TEXTE*-----------*/
 .texteWhite{color: white;}
+.textcolor{color: #00BFA6;}
 .satisfyPolice{font-family: 'Shadows Into Light';}
 .overfHidd{overflow: hidden;}
 .texta{text-align: justify;}
 .merry{font-family: 'Merriweather', serif;}
-.fontSize{font-size: 50px;}
+.fontSize{font-size: 40px;}
 .fontSizee{font-size: 20px;}
+.fs25{font-size: 25px;}
 .fs30{font-size: 30px;}
 .fs15{font-size: 15px;}
 .contact-text{box-sizing: border-box;outline: none;}
@@ -85,6 +88,7 @@ textarea.contact-text{resize: none;}
 .mr{margin-right: 3%;}
 .margint{margin-top: 2%;}
 .marginb{margin-bottom: 2%;}
+.paddingr{padding-right: 20px;}
 
 /*.bglg{background-image:linear-gradient(#b2ebf2,white);}*/
 
@@ -152,8 +156,8 @@ main{height: 200%;}
 }
 
 @media (max-width: 40em) {
-  ul{display: flex;flex-direction: column;align-items: flex-start;}
-  nav{height: 30%;display: flex; align-items: center;}
+  ul{display: flex;flex-direction: column;}
+  nav{height: 25%;display: flex; align-items: center;}
 }
 
 @media (max-width: 40em) {
@@ -164,6 +168,11 @@ main{height: 200%;}
 @media (max-width: 40em) {
   .pr{width: 100%;}
   .ecran{width: 90%;}
+  .contact-btn{display: flex;align-items: center;}
+  .borderf{width: 20%;}
+}
+
+
 
 
 

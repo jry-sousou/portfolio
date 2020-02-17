@@ -44,9 +44,9 @@
         <!-- IMAGE ACCUEIL ---------------------------------------------------------------------------------->
 
         <section class="bg titre texteWhite container jcc aic merry fontSize column">
-            <h1>NICOLAS Jerry</h1>
-            <h1>Developpeur Web junior/ Web Design</h1>
-            <h1>HTML/CSS/JavaScript/PHP</h1>
+            <h1 class="textcolor">Jerry NICOLAS</h1>
+            <h2 class="mt fs25">Developpeur Web junior/ Web Design</h2>
+            <h2 class="fs25 mt">HTML/CSS/JavaScript/PHP</h2>
 
         </section>
         <div class="dix">
@@ -69,7 +69,7 @@
 
 
 
-            <div class="ap container w80 h100 br satisfyPolice texta aic fontSizee jcc">
+            <div class="ap container w80 h100 br satisfyPolice texta aic fontSizee jcc paddingr">
                 <img class="und container w50 h70" src="img/undraw_profile_6l1l (1).png" alt="">
 
 
